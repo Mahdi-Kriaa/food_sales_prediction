@@ -36,127 +36,55 @@ This histogram shows that the majority of the sales are less than $6,200.
 
 
  ### Expanatory Data Analysis
-    - To visualize the data for explantory purposes, three bargraphs were chosen and one linegraph was chosen.
-    - The bargraphs were chosen to show how the categories compare to each other. 
-    - Finally, a linegraph was chosen to show the trend of salaries over the past three years. 
+    - To visualize the data for explantory purposes, a barplot and regplot were chosen.
+    - The barplot xas chosen to show how the types affect sales. 
+    - Finally, a regplot was chosen to show the trend of sales over the item MRP depending on the outlet type.
 
 
 ## Explanatory Visuals
 
 <p align = "center"> 
-  <img src = "https://raw.githubusercontent.com/coding-dojo-data-science/Project1_Exemplar/main/explanatory1.png">
+  <img src = "https://github.com/Mahdi-Kriaa/food_sales_prediction/blob/main/Images/ItemType_VS_Sales.png">
 </p>
 
 
-The top five highest earning job titles and average salaries are as follows:
-
-- Data Analytics Lead: `$405,000.00`
-- Principal Data Engineer: `$328,333.33`
-- Financial Data Analyst: `$275,000.00`
-- Principal Data Scientist: `$198,099.57`
-- Director of Data Science: `$195,074.00`
-
-The bottom five least paying job titles and average salaries are as follows: 
-
-
-- 3D Computer Vision Researcher: `$5,409.00`
-- Product Data Analyst: `$13,036.00`
-- NLP Engineer: `$37,236.00`
-- Computer Vision Engineer: `$44,419.33`
-- Big Data Engineer: `$50,218.12`
-
+We notice that the item type has not a significant impact on the sales
 
 
 <p align = "center"> 
-  <img src = "https://raw.githubusercontent.com/coding-dojo-data-science/Project1_Exemplar/main/explanatory2.png">
+  <img src = "https://github.com/Mahdi-Kriaa/food_sales_prediction/blob/main/Images/ItemMRP_VS_Sales.png">
 </p>
 
 
-The top and bottom earning experience level and average salary is as follows:
-
-- Top Earning Experience Level
-  - Director Level: `$199,561.81`
-- Bottom Earning Experience Level
-  - Junior Level: `$62,049.60`
-
-
-
-<p align = "center"> 
-  <img src = "https://raw.githubusercontent.com/coding-dojo-data-science/Project1_Exemplar/main/explanatory3.png">
-</p>
-
-
-This graph shows that `Data Engineers` have the most roles that are 100% remote, while `Cloud Data Engineers` through `Data Analytics Leads` have the least amount of 100% remote roles.
-
-
-
-<p align = "center"> 
-  <img src = "https://github.com/coding-dojo-data-science/Project1_Exemplar/blob/main/explanatory4.png">
-</p>
-
-
-This graph shows that workers in 2022 earned the most amount of money.
+We see that The item MRP and sales are almost linearly correlated for each outlet type
 
 
  ### Maching Learning Using the Following Models:
     - Linear Regression Model
-    - Decision Tree Regressor Model
     - Tuned Decision Tree Regressor Model
-    - Random Forest Regressor Model
-    - Tuned Random Forest Regressor Model
-    
     
 ## Models Evaluated & Results
 
 - Linear Regression Model (Testing Set):
-  - R^2: -1.442820300359156e+22
-  - MAE: 2065461996953278.5
-  - MSE: 6.752807031244359e+31
-  - RMSE: 8217546489825512.0
+  - R^2: 0.567277
+  - RMSE: 1100.93
 
 - Decision Tree Regressor Model (Testing Set):
-  - R^2: 0.186
-  - MAE: 41512.219
-  - MSE: 3809835283.133
-  - RMSE: 61723.863
-
-- Tuned Decision Tree Regressor Model (Testing Set):
-  - R^2: 0.462
-  - MAE: 34610.985
-  - MSE: 2517885802.26
-  - RMSE: 50178.539
-
-- Random Forest Regressor Model (Testing Set):
-  - R^2: 0.56
-  - MAE: 31872.362
-  - MSE: 2061515521.69
-  - RMSE: 45403.915
-
-- Tuned Random Forest Regressor Model (Testing Set):
-  - R^2: 0.563
-  - MAE: 31998.943
-  - MSE: 2044264641.827
-  - RMSE: 45213.545
+  - R^2: 0.597148
+  - RMSE: 1062.25
 
 
-- The Final Model Chosen was a `Random Forest Regressor Model` with the n_estimators tuned to 50.
-- For the testing set on the model, `56.3%` of the variance in y was explained by x. 
-- The Mean Absolute Error was off by about `$31,998.94`.
-- The Mean Squared Error was `$2,044,264,641.83`.
-- The Root Mean Squared Error had a calculation of `$45,213.55`.
+- The Final Model Chosen was a `Tuned Decision Tree Regressor Model` with the max_depth tuned to 5.
+- For the testing set on the model, `59.7%` of the variance in y was explained by x. 
+- The Root Mean Squared Error had a calculation of `$1,062.25`.
 
-Using this model to make predictions about the best places to live and which careers to choose to earn the most money would not be a very reliable. Considering the previous regression metrics from how the model performed, there is a disparity between the R^2 score and also the Root Mean Squared Error that cannot be ignored.
+Using this model to make predictions about sales of a product in a specific store would not be a very reliable. Considering the previous regression metrics from how the model performed, in fact the error presented by the RMSE score cannot be ignored.
 
 ## Recommendations
 
-Data Science Insights
+Sales Insights
 
-- For those who have an interest in Data Science:
-  - Data Analytics Leads & Principal Data Engineers earn the most amount of money. However, this are usually not entry level careers and I would recommend going through a program, like Coding Dojo, where you can earn your data science certificate and then map out your career to these positions.
-
-  - Data Engineers & Data Scientists have the most 100% remote positions. So, if you are wanting to work from home, or work from anywhere in the world, choosing one of the top five remote positions would be a good choice to build your career upon.
-  
-  - Lastly, the trend for the last three years show that data science and related fields are increasingly earning more money each year. So, choosing a career in one of these fields can be very lucrative.
+To increase the sales of each product the saler must primarily choose the the optimal store's features.
 
 Model Performance
 - Overall, the best model is definitely the tuned Random Forest Regressor Model. There was still some bias in the model, but by far it outperformed the linear regression model. 
