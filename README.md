@@ -82,7 +82,7 @@ We see that The item MRP and sales are almost linearly correlated for each outle
 
 Sales Insights
 
-To increase the sales of each product the saler must primarily choose the the optimal store's features.
+To increase the sales of the store, the saler must primarily choose the optimal store's features.
 
 Model Performance
 
