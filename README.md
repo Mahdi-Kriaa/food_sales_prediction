@@ -29,10 +29,10 @@ For this dataset, there were 8523 rows and 12 columns.
     
 
 <p align = "center"> 
-  <img src = "https://raw.githubusercontent.com/coding-dojo-data-science/Project1_Exemplar/main/exploratory1.png">
+  <img src = "https://github.com/Mahdi-Kriaa/food_sales_prediction/blob/main/Images/sales_boxplot.png">
 </p>
 
-This histogram shows that the majority of the salaries are around $100,000.
+This histogram shows that the majority of the sales are less than $6,200.
 
 
  ### Expanatory Data Analysis
