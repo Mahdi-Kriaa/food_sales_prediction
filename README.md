@@ -78,8 +78,6 @@ We see that The item MRP and sales are almost linearly correlated for each outle
 - For the testing set on the model, `59.7%` of the variance in y was explained by x. 
 - The Root Mean Squared Error had a calculation of `$1,062.25`.
 
-Using this model to make predictions about sales of a product in a specific store would not be a very reliable. Considering the previous regression metrics from how the model performed, in fact the error presented by the RMSE score cannot be ignored.
-
 ## Recommendations
 
 Sales Insights
@@ -87,15 +85,13 @@ Sales Insights
 To increase the sales of each product the saler must primarily choose the the optimal store's features.
 
 Model Performance
-- Overall, the best model is definitely the tuned Random Forest Regressor Model. There was still some bias in the model, but by far it outperformed the linear regression model. 
+
+The tuned decision tree model is better than the linear regression model but, considering the previous regression metrics from how the model performed, using it to make predictions about sales of a product in a specific store would not be a very reliable. in fact the error presented by the RMSE score cannot be ignored.
 
 
-## Limitations & Next Steps
-
-From here, a student could use the insights from the visuals on how to tailor their path for their career. As mentioned before, Coding Dojo has a fantastic program that prepares inspiring data scientists for the field of data science. 
 
 ## For Further Information
 
-For any additional questions, please contact: 
-- Sherlin Whaley (Data Science Instructor)
-- swhaley@codingdojo.com
+For any additional questions, please contact:
+- Mahdi KRIAA
+- mahdikriaa@gmail.com
