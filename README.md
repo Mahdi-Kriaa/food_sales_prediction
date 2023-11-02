@@ -17,7 +17,7 @@ For this dataset, there were 8523 rows and 12 columns.
 ## Data Dictionary
 
 <p align = "center"> 
-  <img src = >
+  <img src = https://github.com/Mahdi-Kriaa/food_sales_prediction/blob/main/Images/data_dictionary.PNG>
 </p>
 
 
