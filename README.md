@@ -4,8 +4,7 @@
 
 Mahdi KRIAA
 
-Welcome to this project wich aims to predict food sales based on various factors. In the ever-evolving world of retail and food service, understanding sales patterns is crucial for business planning and growth. The project focuses on leveraging analytical and modeling techniques to forecast food sales. The used dataset includes information such as the type of food, price, location of sale, promotional details, and historical sales data.
-The goal is to build a model that can accurately predict future sales, helping businesses to manage inventory, optimize supply chain processes, and ultimately increase profitability. We’ll be exploring different machine learning algorithms, data preprocessing techniques, and feature selection methods to achieve this.
+Welcome to this project wich aims to predict food sales based on various factors. In the ever-evolving world of retail and food service, understanding sales patterns is crucial for business planning and growth. The project focuses on leveraging analytical and modeling techniques to forecast food sales. The used dataset includes information such as the type of food, price, location of sale, promotional details, and historical sales data. The goal is to build a model that can accurately predict future sales, helping businesses to manage inventory, optimize supply chain processes, and ultimately increase profitability. We’ll be exploring different machine learning algorithms, data preprocessing techniques, and feature engineering methods to achieve this.
 
 ## Data Source: 
 Food sales history
