@@ -20,9 +20,14 @@ For this dataset, there were 8523 rows and 12 columns.
 
 We will employ various data preprocessing techniques to handle missing values and categorical variables. We will explore different machine learning models, including random forests and gradient boosting, to predict the sales for each store. Model performance will be evaluated based on different metrics such as r2 and RMSE.
 
-### Exploratory Data Analysis
-    - During the exploratory data analysis, a boxplot and histogram was visualized for each numeric datatype column. 
-    - Also, a boxplot was visualized for each categorical column. 
+## Exploratory Data Analysis
+
+### Exploratory Visiuals
+
+The exploratory visuals include the following plots:
+    - a boxplot and histogram was visualized for each numeric datatype column. 
+    - a boxplot was visualized for each categorical column.
+    - a contingincy matrix for some categorical column
     
 
 <p align = "center"> 
@@ -32,13 +37,11 @@ We will employ various data preprocessing techniques to handle missing values an
 This histogram shows that the majority of the sales are less than $6,200.
 
 
- ### Expanatory Data Analysis
-    - To visualize the data for explantory purposes, a barplot and regplot were chosen.
-    - The barplot xas chosen to show how the types affect sales. 
-    - Finally, a regplot was chosen to show the trend of sales over the item MRP depending on the outlet type.
-
-
-## Explanatory Visuals
+ ### Explanatory Visulas
+ 
+To visualize the data for explantory purposes, a barplot and regplot were chosen.
+    - the barplot was chosen to show how the types affect sales. 
+    - the regplot was chosen to show the trend of sales over the item MRP depending on the outlet type.
 
 <p align = "center"> 
   <img src = "https://github.com/Mahdi-Kriaa/food_sales_prediction/blob/main/Images/ItemType_VS_Sales.png">
@@ -55,12 +58,12 @@ We notice that the item type has not a significant impact on the sales
 
 We see that The item MRP and sales are almost linearly correlated for each outlet type
 
+## Maching Learning Models
 
- ### Maching Learning Using the Following Models:
     - Linear Regression Model
     - Tuned Decision Tree Regressor Model
     
-## Models Evaluated & Results
+## Models Evaluation & Results
 
 - Linear Regression Model (Testing Set):
   - R^2: 0.567277
@@ -77,11 +80,11 @@ We see that The item MRP and sales are almost linearly correlated for each outle
 
 ## Recommendations
 
-Sales Insights
+### Sales Insights
 
 To increase the sales of the store, the saler must primarily choose the optimal store's features.
 
-Model Performance
+### Model Performance
 
 The tuned decision tree model is better than the linear regression model but, considering the previous regression metrics from how the model performed, using it to make predictions about sales of a product in a specific store would not be a very reliable. in fact the error presented by the RMSE score cannot be ignored.
 
