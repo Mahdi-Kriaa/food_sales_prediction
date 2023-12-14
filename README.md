@@ -1,6 +1,6 @@
 # Food Sales Prediction
 
-## Prediction sales depending on the store and product features
+## Predicting sales depending on the store and product features
 
 Mahdi KRIAA
 
