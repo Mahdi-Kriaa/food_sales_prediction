@@ -3,26 +3,27 @@
 ## Project Description
 This project aim to predict food sales based on various factors. In the ever-evolving world of retail and food service, understanding sales patterns is crucial for business planning and growth. The project focuses on leveraging analytical and modeling techniques to forecast food sales. The used dataset includes information such as the type of food, price, location of sale, promotional details, and historical sales data. The goal is to build a model that can accurately predict future sales, helping businesses to manage inventory, optimize supply chain processes, and ultimately increase profitability. We’ll be exploring different machine learning algorithms, data preprocessing techniques, and feature engineering methods to achieve this.
 
-## Data Source: 
+## Data
+
+### Data Source: 
 Food sales history
 https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view
 
 For this dataset, there were 8523 rows and 12 columns.
 
-## Data Dictionary
+### Data Dictionary
 
 <p align = "center"> 
   <img src = https://github.com/Mahdi-Kriaa/food_sales_prediction/blob/main/Images/data_dictionary.PNG>
 </p>
 
-
 ## Methodology
 
 We will employ various data preprocessing techniques to handle missing values and categorical variables. We will explore different machine learning models, including random forests and gradient boosting, to predict the sales for each store. Model performance will be evaluated based on different metrics such as r2 and RMSE.
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 
-### Exploratory Visiuals
+#### Exploratory Visiuals
 
 The exploratory visuals include the following plots:
     - a boxplot and histogram was visualized for each numeric datatype column. 
@@ -37,7 +38,7 @@ The exploratory visuals include the following plots:
 This histogram shows that the majority of the sales are less than $6,200.
 
 
- ### Explanatory Visulas
+ #### Explanatory Visulas
  
 To visualize the data for explantory purposes, a barplot and regplot were chosen.
     - the barplot was chosen to show how the types affect sales. 
@@ -89,9 +90,3 @@ To increase the sales of the store, the saler must primarily choose the optimal 
 The tuned decision tree model is better than the linear regression model but, considering the previous regression metrics from how the model performed, using it to make predictions about sales of a product in a specific store would not be a very reliable. in fact the error presented by the RMSE score cannot be ignored.
 
 
-
-## For Further Information
-
-For any additional questions, please contact:
-- Mahdi KRIAA
-- mahdikriaa@gmail.com
