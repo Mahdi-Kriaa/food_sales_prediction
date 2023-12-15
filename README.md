@@ -26,6 +26,7 @@ We will employ various data preprocessing techniques to handle missing values an
 #### Exploratory Visiuals
 
 The exploratory visuals include the following plots:
+
     - a boxplot and histogram was visualized for each numeric datatype column. 
     - a boxplot was visualized for each categorical column.
     - a contingincy matrix for some categorical column
@@ -41,6 +42,7 @@ This histogram shows that the majority of the sales are less than $6,200.
  #### Explanatory Visulas
  
 To visualize the data for explantory purposes, a barplot and regplot were chosen.
+
     - the barplot was chosen to show how the types affect sales. 
     - the regplot was chosen to show the trend of sales over the item MRP depending on the outlet type.
 
@@ -66,7 +68,8 @@ We see that The item MRP and sales are almost linearly correlated for each outle
     
 ## Models Evaluation & Results
 
-- Linear Regression Model (Testing Set):
+. Linear Regression Model (Testing Set):
+
   - R^2: 0.567277
   - RMSE: 1100.93
 
