@@ -21,7 +21,7 @@ For this dataset, there were 8523 rows and 12 columns.
 
 We will employ various data preprocessing techniques to handle missing values and categorical variables. We will explore different machine learning models, including random forests and gradient boosting, to predict the sales for each store. Model performance will be evaluated based on different metrics such as r2 and RMSE.
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 
 To explore the dataset the following plots were used:
 
@@ -56,7 +56,7 @@ We notice that the item type has not a significant impact on the sales
 
 We see that The item MRP and sales are almost linearly correlated for each outlet type
 
-## Maching Learning Models
+## Machine Learning Models
 
     - Linear Regression Model
     - Tuned Decision Tree Regressor Model
