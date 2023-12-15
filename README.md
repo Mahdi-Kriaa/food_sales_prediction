@@ -23,9 +23,7 @@ We will employ various data preprocessing techniques to handle missing values an
 
 ### Exploratory Data Analysis
 
-#### Exploratory Visiuals
-
-The exploratory visuals include the following plots:
+To explore the dataset the following plots were used:
 
     - a boxplot and histogram was visualized for each numeric datatype column. 
     - a boxplot was visualized for each categorical column.
@@ -37,9 +35,6 @@ The exploratory visuals include the following plots:
 </p>
 
 This histogram shows that the majority of the sales are less than $6,200.
-
-
- #### Explanatory Visulas
  
 To visualize the data for explantory purposes, a barplot and regplot were chosen.
 
