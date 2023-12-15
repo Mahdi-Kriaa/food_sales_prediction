@@ -68,8 +68,7 @@ We see that The item MRP and sales are almost linearly correlated for each outle
     
 ## Models Evaluation & Results
 
-. Linear Regression Model (Testing Set):
-
+- Linear Regression Model (Testing Set):
   - R^2: 0.567277
   - RMSE: 1100.93
 
