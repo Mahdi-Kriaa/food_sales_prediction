@@ -56,12 +56,14 @@ We notice that the item type has not a significant impact on the sales
 
 We see that The item MRP and sales are almost linearly correlated for each outlet type
 
-## Machine Learning Models
+## Machine Learning 
+
+### Machine Learning Models
 
     - Linear Regression Model
     - Tuned Decision Tree Regressor Model
     
-## Models Evaluation & Results
+### Models Evaluation & Results
 
 - Linear Regression Model (Testing Set):
   - R^2: 0.567277
