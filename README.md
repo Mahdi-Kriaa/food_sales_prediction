@@ -80,12 +80,8 @@ We see that The item MRP and sales are almost linearly correlated for each outle
 
 ## Recommendations
 
-### Sales Insights
+- To increase the sales of the store, the saler must primarily choose the optimal store's features.
+- The tuned decision tree model is better than the linear regression model but, considering the previous regression metrics from how the model performed, using it to make predictions about sales of a product in a specific store would not be a very reliable. in fact the error presented by the RMSE score cannot be ignored.
 
-To increase the sales of the store, the saler must primarily choose the optimal store's features.
-
-### Model Performance
-
-The tuned decision tree model is better than the linear regression model but, considering the previous regression metrics from how the model performed, using it to make predictions about sales of a product in a specific store would not be a very reliable. in fact the error presented by the RMSE score cannot be ignored.
 
 
