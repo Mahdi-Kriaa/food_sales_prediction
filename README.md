@@ -1,17 +1,16 @@
 # Food Sales Prediction
 
-## Project Description
+## Objective
 This project aim to predict food sales based on various factors. In the ever-evolving world of retail and food service, understanding sales patterns is crucial for business planning and growth. The project focuses on leveraging analytical and modeling techniques to forecast food sales. The used dataset includes information such as the type of food, price, location of sale, promotional details, and historical sales data. The goal is to build a model that can accurately predict future sales, helping businesses to manage inventory, optimize supply chain processes, and ultimately increase profitability.
 
-## Data
 
-### Data Source: 
+## Data Source and Size
 Food sales history
 https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view
 
-For this dataset, there were 8523 rows and 12 columns.
+This dataset contains 8523 rows and 12 columns.
 
-### Data Dictionary
+## Data Dictionary
 
 <p align = "center"> 
   <img src = https://github.com/Mahdi-Kriaa/food_sales_prediction/blob/main/Images/data_dictionary.PNG>
